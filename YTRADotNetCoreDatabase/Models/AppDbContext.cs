@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
-
 namespace YTRADotNetCoreDatabase.Databases.Models;
 
 public partial class AppDbContext : DbContext
@@ -19,8 +19,10 @@ public partial class AppDbContext : DbContext
     {
         if (!optionsBuilder.IsConfigured)
         {
-            string connectionString = "Data Source=THURA\\MSSQLSERVER2;Initial Catalog=DotNetTrainingBatch5;User Id=sa;Password=sasa;Trusted_Connection=True;";
+            string connectionString = "Data Source=THURA\\MSSQLSERVER2;Initial Catalog=DotNetTrainingBatch5;User Id=sa;Password=sasa;TrustServerCertificate=True;";
             optionsBuilder.UseSqlServer(connectionString);
+ 
+          
         }
     }
 
