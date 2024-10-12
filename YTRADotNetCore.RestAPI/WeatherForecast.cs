@@ -1,6 +1,6 @@
 namespace YTRADotNetCore.RestAPI
 {
-    public class WeatherForecast
+    public class  WeatherForecast
     {
         public DateOnly Date { get; set; }
 
