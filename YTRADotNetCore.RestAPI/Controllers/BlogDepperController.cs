@@ -21,7 +21,9 @@ namespace YTRADotNetCore.RestAPI.Controllers
             {
 
                 string query = "SELECT * FROM Tbl_Blog where DeleteFlag=0;";
+            
                 List<BlogDataModel> lst = db.Query<BlogDataModel>(query).ToList();
+              
 
 
 

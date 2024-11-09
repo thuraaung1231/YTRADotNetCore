@@ -5,9 +5,19 @@ VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YTRADotNetCore.ConsoleApp", "YTRADotNetCore.ConsoleApp\YTRADotNetCore.ConsoleApp.csproj", "{B3DB623C-D1D2-4B67-B7AC-025E62247613}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTRADotNetCoreDatabase", "YTRADotNetCoreDatabase\YTRADotNetCoreDatabase.csproj", "{3F50B9DA-D71F-4C51-B839-3DE9F0141F10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YTRADotNetCoreDatabase", "YTRADotNetCoreDatabase\YTRADotNetCoreDatabase.csproj", "{3F50B9DA-D71F-4C51-B839-3DE9F0141F10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTRADotNetCore.RestAPI", "YTRADotNetCore.RestAPI\YTRADotNetCore.RestAPI.csproj", "{27BBF0D9-C663-425D-83E9-3D89518D5D80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YTRADotNetCore.RestAPI", "YTRADotNetCore.RestAPI\YTRADotNetCore.RestAPI.csproj", "{27BBF0D9-C663-425D-83E9-3D89518D5D80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotetTrainingB5.shared", "DotetTrainingB5.shared\DotetTrainingB5.shared.csproj", "{FE6073DF-2D2F-4CBC-83DF-01FFD90A950C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTRADotNetCore.MinimalApi", "YTRADotNetCore.MinimalApi\YTRADotNetCore.MinimalApi.csproj", "{2421BF0B-983E-44CA-B389-008B9B02E50B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTRADotNetCore.ConsoleApp.2", "YTRADotNetCore.ConsoleApp.2\YTRADotNetCore.ConsoleApp.2.csproj", "{E385B108-75F7-437C-AF27-D0CADA138CBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTRADotNetCore.BirdWebApi", "YTRADotNetCore.BirdWebApi\YTRADotNetCore.BirdWebApi.csproj", "{8D08C274-B70C-49DC-BE7F-46616B2868D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTRADotNetCore.incompatible-food", "YTRADotNetCore.incompatible-food\YTRADotNetCore.incompatible-food.csproj", "{AF584A0D-1F64-434B-BC2F-13886CC633B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +37,26 @@ Global
 		{27BBF0D9-C663-425D-83E9-3D89518D5D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27BBF0D9-C663-425D-83E9-3D89518D5D80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27BBF0D9-C663-425D-83E9-3D89518D5D80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE6073DF-2D2F-4CBC-83DF-01FFD90A950C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6073DF-2D2F-4CBC-83DF-01FFD90A950C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6073DF-2D2F-4CBC-83DF-01FFD90A950C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6073DF-2D2F-4CBC-83DF-01FFD90A950C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2421BF0B-983E-44CA-B389-008B9B02E50B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2421BF0B-983E-44CA-B389-008B9B02E50B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2421BF0B-983E-44CA-B389-008B9B02E50B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2421BF0B-983E-44CA-B389-008B9B02E50B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E385B108-75F7-437C-AF27-D0CADA138CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E385B108-75F7-437C-AF27-D0CADA138CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E385B108-75F7-437C-AF27-D0CADA138CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E385B108-75F7-437C-AF27-D0CADA138CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D08C274-B70C-49DC-BE7F-46616B2868D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D08C274-B70C-49DC-BE7F-46616B2868D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D08C274-B70C-49DC-BE7F-46616B2868D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D08C274-B70C-49DC-BE7F-46616B2868D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF584A0D-1F64-434B-BC2F-13886CC633B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF584A0D-1F64-434B-BC2F-13886CC633B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF584A0D-1F64-434B-BC2F-13886CC633B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF584A0D-1F64-434B-BC2F-13886CC633B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
