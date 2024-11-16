@@ -9,15 +9,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YTRADotNetCoreDatabase", "Y
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YTRADotNetCore.RestAPI", "YTRADotNetCore.RestAPI\YTRADotNetCore.RestAPI.csproj", "{27BBF0D9-C663-425D-83E9-3D89518D5D80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotetTrainingB5.shared", "DotetTrainingB5.shared\DotetTrainingB5.shared.csproj", "{FE6073DF-2D2F-4CBC-83DF-01FFD90A950C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotetTrainingB5.shared", "DotetTrainingB5.shared\DotetTrainingB5.shared.csproj", "{FE6073DF-2D2F-4CBC-83DF-01FFD90A950C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTRADotNetCore.MinimalApi", "YTRADotNetCore.MinimalApi\YTRADotNetCore.MinimalApi.csproj", "{2421BF0B-983E-44CA-B389-008B9B02E50B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YTRADotNetCore.MinimalApi", "YTRADotNetCore.MinimalApi\YTRADotNetCore.MinimalApi.csproj", "{2421BF0B-983E-44CA-B389-008B9B02E50B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTRADotNetCore.ConsoleApp.2", "YTRADotNetCore.ConsoleApp.2\YTRADotNetCore.ConsoleApp.2.csproj", "{E385B108-75F7-437C-AF27-D0CADA138CBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YTRADotNetCore.ConsoleApp.2", "YTRADotNetCore.ConsoleApp.2\YTRADotNetCore.ConsoleApp.2.csproj", "{E385B108-75F7-437C-AF27-D0CADA138CBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTRADotNetCore.BirdWebApi", "YTRADotNetCore.BirdWebApi\YTRADotNetCore.BirdWebApi.csproj", "{8D08C274-B70C-49DC-BE7F-46616B2868D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YTRADotNetCore.BirdWebApi", "YTRADotNetCore.BirdWebApi\YTRADotNetCore.BirdWebApi.csproj", "{8D08C274-B70C-49DC-BE7F-46616B2868D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTRADotNetCore.incompatible-food", "YTRADotNetCore.incompatible-food\YTRADotNetCore.incompatible-food.csproj", "{AF584A0D-1F64-434B-BC2F-13886CC633B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YTRADotNetCore.incompatible-food", "YTRADotNetCore.incompatible-food\YTRADotNetCore.incompatible-food.csproj", "{AF584A0D-1F64-434B-BC2F-13886CC633B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YTRADotNetCore.MiniKpayRestApi", "YTRADotNetCore.MiniKpayRestApi\YTRADotNetCore.MiniKpayRestApi.csproj", "{D7F83688-24D7-4889-939A-3EFE8EDF8B9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{AF584A0D-1F64-434B-BC2F-13886CC633B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF584A0D-1F64-434B-BC2F-13886CC633B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF584A0D-1F64-434B-BC2F-13886CC633B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7F83688-24D7-4889-939A-3EFE8EDF8B9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F83688-24D7-4889-939A-3EFE8EDF8B9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F83688-24D7-4889-939A-3EFE8EDF8B9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F83688-24D7-4889-939A-3EFE8EDF8B9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
